@@ -8,7 +8,7 @@
 	justify-content: center;
 }
 .res__information {
-	width: 500px;
+	width: 550px;
 	padding: 20px;
 	box-shadow: -2px -2px 8px rgba(255,255,255,1),
 				-2px -2px 12px rgba(255,255,255,0.5),
@@ -35,14 +35,19 @@
 .res__foto-default {
 	padding: 10px;
 	margin: 0 0 0 50px;
+	height: 350px;
+	width: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	box-shadow: -2px -2px 8px rgba(255,255,255,1),
 				-2px -2px 12px rgba(255,255,255,0.5),
 				inset 2px 2px 4px rgba(255,255,255,0.1),
 				2px 2px 8px rgba(0,0,0,0.15);
 }
 .res__foto-default img {
-	height: 350px;
-	width: 350px;
+	height: 250px;
+	width: 250px;
 	object-fit: cover;
 }
 /* MAIN1 */
@@ -52,6 +57,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 .res__main-name.active {
 	display: none;
@@ -109,7 +115,7 @@ body {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	/*overflow-y: hidden;*/
 	background: #f2f3f7;
 	color: black;
 }

@@ -61,39 +61,6 @@ gsap.timeline({
 })
 .from('#s6 img', {opacity: "0"})
 .from('#s6 p', {opacity: "0"})
-gsap.timeline({
-	scrollTrigger: {
-		trigger: "#s7",
-		start: "center 100%",
-		markers: false,
-		scrub: false,
-		pin: false
-	}
-})
-.from('#s7 img', {opacity: "0"})
-.from('#s7 p', {opacity: "0"})
-gsap.timeline({
-	scrollTrigger: {
-		trigger: "#s8",
-		start: "center 100%",
-		markers: false,
-		scrub: false,
-		pin: false
-	}
-})
-.from('#s8 img', {opacity: "0"})
-.from('#s8 p', {opacity: "0"})
-gsap.timeline({
-	scrollTrigger: {
-		trigger: "#s9",
-		start: "center 100%",
-		markers: false,
-		scrub: false,
-		pin: false
-	}
-})
-.from('#s9 img', {opacity: "0"})
-.from('#s9 p', {opacity: "0"})
 
 $(document).ready(function(){
     $(".res__nav").on("click","a", function (event) {

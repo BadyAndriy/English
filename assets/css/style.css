@@ -53,7 +53,19 @@
 	align-items: center;
 	justify-content: center;
 }
+.res__main-name.active {
+	display: none;
+}
 .res__main-name h2 {
+	font-size: 150px;
+}
+.res__main-name2 {
+	display: none;
+}
+.res__main-name2.active {
+	display: block;
+}
+.res__main-name2 h2 {
 	font-size: 150px;
 }
 .res__nav {

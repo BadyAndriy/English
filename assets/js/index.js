@@ -1,3 +1,10 @@
+$(document).ready(function(){
+	$('.up').click(function(){
+		$('.res__main-name').addClass('active')
+		$('.res__main-name2').addClass('active')
+	})
+})
+
 
 gsap.timeline({
 	scrollTrigger: {
